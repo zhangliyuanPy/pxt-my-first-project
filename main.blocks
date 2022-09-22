@@ -1,7 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="7XkraB:n{jFkE2|X~{CF">myImage</variable></variables><block type="device_forever" id="tIobT~lTB,H@GNQ90rz;" x="420" y="-145"></block><block type="pxt-on-start" id="h!O$jKk[X{qJcs3`mfKT" x="0" y="0"><statement name="HANDLER"><block type="device_show_image_offset" id="pvLgDT_]{qe;=_R?0JyY"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_image" id="^H-X$?1(o$+T?k}kTWiR"><field name="LEDS">`
-        # . . . . 
-        . # . . . 
-        . . # . . 
-        . . . # . 
-        . . . . #
-        `</field></block></value><value name="offset"><shadow type="math_number" id="Hh,|34,t_pAtD2!L@isS"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="C4F`%_eftrvpV;Xymf6N"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="IAq/PQI,utXelR:iLL`M" x="0" y="0"><statement name="HANDLER"><block type="typescript_statement" id=":^EkLBDSihnT?4RPSI`J" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="namespace fun {" line1="    /**" line2="    * 计算著名的斐波那契数列！" line3="    */" line4="    //% block" line5="    export function fib(value: number): number {" line6="        return value &lt;= 1 ? value : fib(value - 1) + fib(value - 2);" line7="    }" line8="}" numlines="9"></mutation></block></statement></block></xml>
